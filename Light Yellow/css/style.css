@@ -1,0 +1,51 @@
+body{
+    margin:0;
+}
+
+#mandarin_orange {
+    width: 100%;
+}
+
+.navigation ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5F5426;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 5px solid #603C14;
+}
+
+.navigation li {
+    float: left;
+}
+
+.navigation li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 24px 50px;
+    text-decoration: none;
+}
+
+.navigation a.active{
+    background-color: #F3BC2E;
+}
+
+.navigation a:hover, a:active {
+    background-color: #603c14;
+    color: #F3BC2E;
+}
+
+
+.content{
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #603C14;
+    background-color: #F3BC2E;
+
+
+}

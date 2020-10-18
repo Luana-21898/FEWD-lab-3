@@ -1,0 +1,50 @@
+body{
+    margin:0;
+}
+
+#dark_orange {
+    width: auto;
+}
+
+.navigation ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5F5426;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 5px solid #D45B12;
+}
+
+.navigation li {
+    float: left;
+}
+
+.navigation li a {
+    display: block;
+    color: #F3BC2E;
+    text-align: center;
+    padding: 24px 50px;
+    text-decoration: none;
+}
+
+.navigation a.active{
+    background-color: #9c2706;
+}
+
+.navigation a:hover, a:active {
+    background-color: #603c14;
+}
+
+
+.content{
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #F3BC2E;
+    background-color: #9c2706;
+
+
+}
